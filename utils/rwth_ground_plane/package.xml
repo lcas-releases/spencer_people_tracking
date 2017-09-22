@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
   <name>rwth_ground_plane</name>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <description>The rwth_ground_plane package</description>
 
   <maintainer email="mitzel@umic.rwth-aachen.de">Dennis Mitzel</maintainer>
   <maintainer email="cdondrup@lincoln.ac.uk">Christian Dondrup</maintainer>
 
-  <license>TODO</license>
+  <license>BSD</license>
 
   <url type="website">http://www.vision.rwth-aachen.de/</url>
 
