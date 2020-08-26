@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-detected-person-association
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-eigen-conversions, ros-melodic-message-filters, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-detected-person-association
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-eigen-conversions, ros-melodic-message-filters, ros-melodic-message-runtime, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-tf-conversions
+Description: Provides C++ nodelets for fusing spencer_tracking_msgs/DetectedPersons messages output by different detectors, associating detected persons with tracked persons, and associating persons detected by a single detector with fused detections in the form of spencer_tracking_msgs/CompositeDetectedPersons messages.
