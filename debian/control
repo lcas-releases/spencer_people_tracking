@@ -1,0 +1,12 @@
+Source: ros-melodic-srl-laser-segmentation
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-eigen-conversions, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-srl-laser-segmentation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-eigen-conversions, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-visualization-msgs
+Description: Messages and algorithms + ROS nodes for segmentation and annotation of laserscans
