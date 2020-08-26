@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-human-attribute-msgs
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-human-attribute-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-std-msgs
+Description: Messages used for Human Attribute Recognition
