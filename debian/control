@@ -1,0 +1,13 @@
+Source: ros-melodic-spencer-diagnostics
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-spencer-control-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-spencer-control-msgs, ros-melodic-tf
+Description: Easy-to-use diagnostic tools (e.g.
+ MonitoredPublisher) that publish diagnostic_msgs/DiagnosticArray messages which can be processed by diagnostic_aggregator and displayed by rqt_runtime_monitor or rqt_robot_monitor.
