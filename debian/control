@@ -1,0 +1,12 @@
+Source: ros-melodic-rwth-ground-hog
+Section: misc
+Priority: optional
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-melodic-catkin, ros-melodic-image-transport, ros-melodic-message-filters, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-rwth-perception-people-msgs, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs
+Homepage: http://www.vision.rwth-aachen.de/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwth-ground-hog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-melodic-image-transport, ros-melodic-message-filters, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-rwth-perception-people-msgs, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs
+Description: The ground_hog package
