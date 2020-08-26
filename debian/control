@@ -1,0 +1,13 @@
+Source: ros-melodic-pcl-people-detector
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-eigen-conversions, ros-melodic-pcl-conversions, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-spencer-tracking-msgs, ros-melodic-spencer-vision-msgs, ros-melodic-tf-conversions, ros-melodic-visualization-msgs
+Homepage: http://view.pointclouds.org/documentation/tutorials/ground_based_rgbd_people_detection.php#ground-based-rgbd-people-detection
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pcl-people-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-melodic-cmake-modules, ros-melodic-eigen-conversions, ros-melodic-pcl-conversions, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-spencer-tracking-msgs, ros-melodic-spencer-vision-msgs, ros-melodic-tf-conversions, ros-melodic-visualization-msgs
+Description: ROS wrapper for the ground-based people detector from the PCL library, based upon the implementation provided by M.
+ Munaro, F. Basso and E. Menegatti. &quot;Tracking people within groups with RGB-D data&quot;. In Proceedings of the International Conference on Intelligent Robots and Systems (IROS) 2012, Vilamoura (Portugal), 2012.
