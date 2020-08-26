@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-people-tracking-launch
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslib
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-people-tracking-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-jsk-rviz-plugins, ros-melodic-map-server, ros-melodic-openni2-launch, ros-melodic-roslib, ros-melodic-spencer-detected-person-association, ros-melodic-spencer-tracking-rviz-plugin, ros-melodic-srl-nearest-neighbor-tracker
+Description: Launch files for multi-modal people tracking on the SPENCER robot platform
