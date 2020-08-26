@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-group-tracking
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, python-scipy, ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-social-relation-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-group-tracking
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libatlas-base-dev, python-numpy, python-scipy, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-social-relation-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Description: SPENCER components for tracking groups of persons
