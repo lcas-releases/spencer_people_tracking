@@ -1,0 +1,12 @@
+Source: ros-melodic-srl-nearest-neighbor-tracker
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-angles, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-eigen-conversions, ros-melodic-roslib, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-srl-laser-segmentation, ros-melodic-tf, ros-melodic-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-srl-nearest-neighbor-tracker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-angles, ros-melodic-eigen-conversions, ros-melodic-roslib, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-srl-laser-segmentation, ros-melodic-tf, ros-melodic-tf-conversions
+Description: Nearest-neighbor person tracker
