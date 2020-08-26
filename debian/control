@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-tracking-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslib, ros-melodic-rviz, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-social-relation-msgs, ros-melodic-spencer-tracking-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-tracking-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roslib, ros-melodic-rviz, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-social-relation-msgs, ros-melodic-spencer-tracking-msgs
+Description: RViz plugin for visualizing tracked and detected persons and groups
