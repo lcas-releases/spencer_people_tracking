@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-tracking-metrics
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-filters, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-tracking-metrics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-filters, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Description: Wrappers for CLEAR MOT and OSPA (multi-object tracking) metrics which use the SPENCER message definitions
