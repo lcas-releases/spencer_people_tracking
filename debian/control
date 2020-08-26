@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-bagfile-tools
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-camera-calibration-parsers, ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-image-geometry, ros-melodic-image-transport, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-bagfile-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-camera-calibration-parsers, ros-melodic-compressed-depth-image-transport, ros-melodic-compressed-image-transport, ros-melodic-cv-bridge, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-image-geometry, ros-melodic-image-transport, ros-melodic-jsk-topic-tools, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: spencer_bagfile_tools
