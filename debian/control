@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-people-tracking-full
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-people-tracking-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-pcl-people-detector, ros-melodic-rwth-ground-hog, ros-melodic-rwth-ground-plane, ros-melodic-rwth-perception-people-msgs, ros-melodic-rwth-upper-body-detector, ros-melodic-spencer-bagfile-tools, ros-melodic-spencer-control-msgs, ros-melodic-spencer-detected-person-association, ros-melodic-spencer-detected-person-conversion, ros-melodic-spencer-diagnostics, ros-melodic-spencer-group-tracking, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-leg-detector-wrapper, ros-melodic-spencer-people-tracking-launch, ros-melodic-spencer-perception-mocks, ros-melodic-spencer-social-relation-msgs, ros-melodic-spencer-social-relations, ros-melodic-spencer-tracking-metrics, ros-melodic-spencer-tracking-msgs, ros-melodic-spencer-tracking-rviz-plugin, ros-melodic-spencer-tracking-utils, ros-melodic-spencer-vision-msgs, ros-melodic-srl-laser-detectors, ros-melodic-srl-laser-features, ros-melodic-srl-laser-segmentation, ros-melodic-srl-nearest-neighbor-tracker, ros-melodic-srl-tracking-exporter, ros-melodic-srl-tracking-logfile-import, ros-melodic-track-annotation-tool, ros-melodic-video-to-bagfile
+Description: A metapackage which depends on all subpackages of the SPENCER People Tracking Framework.
