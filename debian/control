@@ -1,0 +1,12 @@
+Source: ros-melodic-track-annotation-tool
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-pluginlib, ros-melodic-python-qt-binding, ros-melodic-roslib, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-rviz, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-tracking-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-track-annotation-tool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-pluginlib, ros-melodic-python-qt-binding, ros-melodic-roslib, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-rviz, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-tracking-msgs
+Description: Standalone tool and supplementary RViz plugin for annotating person tracks
