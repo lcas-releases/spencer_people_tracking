@@ -2,6 +2,11 @@
 Changelog for package spencer_people_tracking_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2020-08-26)
+------------------
+* Merge branch 'master' into melodic
+* Contributors: Timm Linder
+
 1.0.11 (2020-08-26)
 -------------------
 * Various smaller fixes for ROS Kinetic
