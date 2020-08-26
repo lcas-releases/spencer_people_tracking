@@ -1,0 +1,85 @@
+ros-kinetic-spencer-detected-person-association (1.0.11-1xenial) xenial; urgency=high
+
+  * Various smaller fixes for ROS Kinetic
+    - Reduce logging level at nodelet startup to remove logging clutter
+    - Bugfix for #78 <https://github.com/spencer-project/spencer_people_tracking/issues/78>, blocked aggregator nodelets due to detector stall. Fix by monitoring if any message are actually received on detections topic, before advertising publisher.
+    - Configurable odom and base footprint frame IDs (fixes #53 <https://github.com/spencer-project/spencer_people_tracking/issues/53>)
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Wed, 26 Aug 2020 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.10-1xenial) xenial; urgency=high
+
+  * Merge pull request #47 <https://github.com/LCAS/spencer_people_tracking/issues/47> from LCAS/master
+    1.0.8
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Sat, 22 Sep 2018 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.9-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Wed, 17 Jan 2018 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.8-1xenial) xenial; urgency=high
+
+  * Merge pull request #41 <https://github.com/LCAS/spencer_people_tracking/issues/41> from LCAS/master
+    1.0.7
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 22 Sep 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.7-1xenial) xenial; urgency=high
+
+  * Add missing install targets
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 09 Jun 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.6-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 09 Jun 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.5-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.4-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.3-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 11 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.2-1xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 09 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-detected-person-association (1.0.1-1xenial) xenial; urgency=high
+
+  * various install targets added that were missing
+  * Updating TrackSynchronizer with current message types and topics namespaces
+  * Compiling on kinetic. Rviz crashes with views (QT bug?)
+  * Updated licenses for spencer_detected_person_association
+  * Updating spencer_detected_person_association from SPENCER repo
+  * Fix for #2 <https://github.com/LCAS/spencer_people_tracking/issues/2>, correctly include message headers in spencer_detected_person_association
+  * Adding script for detecting suspicious poses and covariance matrices of CompositeDetectedPersons, useful for debugging (will output to console)
+  * Fix compilation issue
+  * Adding detection-to-detection fusion modules
+  * Contributors: Joao Avelino, Marc Hanheide, Timm Linder, ruffsl
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 09 May 2017 00:00:00 -0000
+
+
