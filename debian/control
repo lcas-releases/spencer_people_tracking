@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-people-tracking-full
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-people-tracking-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-pcl-people-detector, ros-kinetic-rwth-ground-hog, ros-kinetic-rwth-ground-plane, ros-kinetic-rwth-perception-people-msgs, ros-kinetic-rwth-upper-body-detector, ros-kinetic-spencer-bagfile-tools, ros-kinetic-spencer-control-msgs, ros-kinetic-spencer-detected-person-association, ros-kinetic-spencer-detected-person-conversion, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-group-tracking, ros-kinetic-spencer-human-attribute-msgs, ros-kinetic-spencer-leg-detector-wrapper, ros-kinetic-spencer-people-tracking-launch, ros-kinetic-spencer-perception-mocks, ros-kinetic-spencer-social-relation-msgs, ros-kinetic-spencer-social-relations, ros-kinetic-spencer-tracking-metrics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-spencer-tracking-rviz-plugin, ros-kinetic-spencer-tracking-utils, ros-kinetic-spencer-vision-msgs, ros-kinetic-srl-laser-detectors, ros-kinetic-srl-laser-features, ros-kinetic-srl-laser-segmentation, ros-kinetic-srl-nearest-neighbor-tracker, ros-kinetic-srl-tracking-exporter, ros-kinetic-srl-tracking-logfile-import, ros-kinetic-track-annotation-tool, ros-kinetic-video-to-bagfile
+Description: A metapackage which depends on all subpackages of the SPENCER People Tracking Framework.
