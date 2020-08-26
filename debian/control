@@ -1,0 +1,12 @@
+Source: ros-melodic-srl-tracking-logfile-import
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-srl-laser-segmentation, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-srl-tracking-logfile-import
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-srl-laser-segmentation, ros-melodic-tf
+Description: Imports old CARMEN logfiles containing laser scans and annotations, and allows to publish them as ROS topics
