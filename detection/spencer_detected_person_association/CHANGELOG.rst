@@ -2,6 +2,9 @@
 Changelog for package spencer_detected_person_association
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2020-08-26)
+------------------
+
 1.2.0 (2020-08-26)
 ------------------
 * Merge branch 'master' into melodic
