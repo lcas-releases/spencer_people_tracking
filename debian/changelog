@@ -1,0 +1,83 @@
+ros-melodic-spencer-leg-detector-wrapper (1.2.0-1bionic) bionic; urgency=high
+
+  * Merge branch 'master' into melodic
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 25 Aug 2020 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.11-1bionic) bionic; urgency=high
+
+  * Add missing install targets for spencer_leg_detector_wrapper (fix for #64 <https://github.com/spencer-project/spencer_people_tracking/issues/64>)
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 25 Aug 2020 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.10-1bionic) bionic; urgency=high
+
+  * Merge pull request #47 <https://github.com/LCAS/spencer_people_tracking/issues/47> from LCAS/master
+    1.0.8
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 21 Sep 2018 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.9-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Wed, 17 Jan 2018 00:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.8-1bionic) bionic; urgency=high
+
+  * Merge pull request #41 <https://github.com/LCAS/spencer_people_tracking/issues/41> from LCAS/master
+    1.0.7
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 21 Sep 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.7-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 08 Jun 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.6-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 08 Jun 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.5-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 11 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.4-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 11 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.3-1bionic) bionic; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Wed, 10 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.2-1bionic) bionic; urgency=high
+
+  * added missing roslib deps
+  * Contributors: Marc Hanheide
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Mon, 08 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-leg-detector-wrapper (1.0.1-1bionic) bionic; urgency=high
+
+  * Updating licenses for laser detector, features and segmentation
+  * Add comment to launch file
+  * Adding wrapper package for leg_detector from wg-perception
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Mon, 08 May 2017 23:00:00 -0000
+
+
