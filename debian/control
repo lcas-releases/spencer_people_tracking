@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-perception-mocks
+Section: misc
+Priority: optional
+Maintainer: Dr. Mock <drmock@spencer.eu>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, python-scipy, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-spencer-vision-msgs, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-perception-mocks
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, python-scipy, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-spencer-human-attribute-msgs, ros-melodic-spencer-tracking-msgs, ros-melodic-spencer-vision-msgs
+Description: Perception Mock components for SPENCER
