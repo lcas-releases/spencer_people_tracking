@@ -1,0 +1,12 @@
+Source: ros-melodic-rwth-upper-body-detector
+Section: misc
+Priority: optional
+Maintainer: Stefan Breuers <breuers@vision.rwth-aachen.dek>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, qtbase5-dev, ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-geometry-msgs, ros-melodic-image-transport, ros-melodic-message-filters, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rwth-perception-people-msgs, ros-melodic-sensor-msgs, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-visualization-msgs
+Homepage: http://www.vision.rwth-aachen.de/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwth-upper-body-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-melodic-cv-bridge, ros-melodic-geometry-msgs, ros-melodic-image-transport, ros-melodic-message-filters, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rwth-perception-people-msgs, ros-melodic-sensor-msgs, ros-melodic-spencer-diagnostics, ros-melodic-spencer-tracking-msgs, ros-melodic-std-msgs, ros-melodic-visualization-msgs
+Description: The upper_body_detector package
