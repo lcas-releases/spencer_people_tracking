@@ -1,0 +1,90 @@
+ros-melodic-spencer-vision-msgs (1.2.0-1bionic) bionic; urgency=high
+
+  * Merge branch 'master' into melodic
+  * Contributors: Timm Linder
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Tue, 25 Aug 2020 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.11-1bionic) bionic; urgency=high
+
+  * Merge pull request #1 <https://github.com/spencer-project/spencer_people_tracking/issues/1> from spencer-project/master
+    Adding confidence field to PersonROI message
+  * Contributors: Manuel Fernandez-Carmona, Timm Linder
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Tue, 25 Aug 2020 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.10-1bionic) bionic; urgency=high
+
+  * Merge pull request #3 <https://github.com/LCAS/spencer_people_tracking/issues/3> from spencer-project/master
+    Adding confidence field to PersonROI message
+  * Adding confidence field to PersonROI message
+  * Merge pull request #47 <https://github.com/LCAS/spencer_people_tracking/issues/47> from LCAS/master
+    1.0.8
+  * Contributors: Manuel Fernandez-Carmona, Timm Linder
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Fri, 21 Sep 2018 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.9-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Wed, 17 Jan 2018 00:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.8-1bionic) bionic; urgency=high
+
+  * Merge pull request #2 <https://github.com/LCAS/spencer_people_tracking/issues/2> from spencer-project/master
+    Integrate multiple fixes from upstream
+  * Specify correct license in package.xmls
+  * Merge pull request #41 <https://github.com/LCAS/spencer_people_tracking/issues/41> from LCAS/master
+    1.0.7
+  * Contributors: Marc Hanheide, Timm Linder
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Thu, 21 Sep 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.7-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Thu, 08 Jun 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.6-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Thu, 08 Jun 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.5-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Thu, 11 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.4-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Thu, 11 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.3-1bionic) bionic; urgency=high
+
+
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Wed, 10 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.2-1bionic) bionic; urgency=high
+
+  * added missing roslib deps
+  * Contributors: Marc Hanheide
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Mon, 08 May 2017 23:00:00 -0000
+
+ros-melodic-spencer-vision-msgs (1.0.1-1bionic) bionic; urgency=high
+
+  * homogenised all version strings to 1.0.0
+  * Updated licenses
+  * Adding message definitions, RViz plugins and mock scripts
+  * Contributors: Marc Hanheide, Timm Linder
+
+ -- Lucas Beyer <beyer@vision.rwth-aachen.de>  Mon, 08 May 2017 23:00:00 -0000
+
+
