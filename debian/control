@@ -1,0 +1,12 @@
+Source: ros-melodic-spencer-tracking-utils
+Section: misc
+Priority: optional
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-eigen-conversions, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-spencer-tracking-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-eigen-conversions, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-spencer-tracking-msgs, ros-melodic-tf
+Description: Utilities for filtering spencer_tracking_msgs/TrackedPersons output of a person tracker
