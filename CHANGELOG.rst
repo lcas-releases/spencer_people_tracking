@@ -2,6 +2,9 @@
 Changelog for package spencer_tracking_metrics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2020-08-26)
+------------------
+
 1.2.0 (2020-08-26)
 ------------------
 * Merge branch 'master' into melodic
