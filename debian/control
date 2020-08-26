@@ -1,0 +1,12 @@
+Source: ros-melodic-rwth-perception-people-msgs
+Section: misc
+Priority: optional
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-roslib, ros-melodic-std-msgs
+Homepage: http://www.vision.rwth-aachen.de/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rwth-perception-people-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-roslib, ros-melodic-std-msgs
+Description: The rwth_perception_people_msgs package
